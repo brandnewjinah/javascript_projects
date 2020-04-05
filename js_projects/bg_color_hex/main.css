@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d9ded8;
+}
+
+.colorBtn {
+    padding: 0.8rem 0.8rem;
+    border-radius: 7px;
+    color: #fefefe;
+    background: #6b7781;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    outline: none;
+}   
+
+.colorBtn:hover {
+    background: #3e596c;
+}
