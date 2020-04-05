@@ -3,7 +3,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #d9ded8;
+    /* background: #d9ded8; */
+}
+
+.container {
+    text-align: center;
+}
+
+.hex {
+    font-size: 1.5rem;
 }
 
 .colorBtn {
