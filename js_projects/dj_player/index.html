@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="keys">
+            <div data-loop="84" class="bkey">
+                <kbd>T</kbd>
+                <span class="sound">bass</span>
+            </div>
+            <div data-loop="89" class="bkey">
+                <kbd>Y</kbd>
+                <span class="sound">disco</span>
+            </div>
+            <div data-loop="85" class="bkey">
+                <kbd>U</kbd>
+                <span class="sound">retro</span>
+            </div>
+        </div>
+
+        <div class="keys">
+            <div data-key="65" class="ekey">
+                <kbd>A</kbd>
+                <span class="sound">8-bit 1</span>
+            </div>
+            <div data-key="83" class="ekey">
+                <kbd>S</kbd>
+                <span class="sound">8-bit 2</span>
+            </div>
+            <div data-key="68" class="ekey">
+                <kbd>D</kbd>
+                <span class="sound">8-bit 3</span>
+            </div>
+            <div data-key="70" class="ekey">
+                <kbd>F</kbd>
+                <span class="sound">8-bit 4</span>
+            </div>
+            <div data-key="72" class="ekey">
+                <kbd>H</kbd>
+                <span class="sound">drum 1</span>
+            </div>
+            <div data-key="74" class="ekey">
+                <kbd>J</kbd>
+                <span class="sound">drum 2</span>
+            </div>
+            <div data-key="75" class="ekey">
+                <kbd>K</kbd>
+                <span class="sound">drum 3</span>
+            </div>
+            <div data-key="76" class="ekey">
+                <kbd>L</kbd>
+                <span class="sound">drum 4</span>
+            </div>
+        </div>
+
+        <div class="keys">
+            <div data-key="32" class="space">
+                <kbd>SPACE</kbd>
+                <span class="sound">stop</span>
+            </div>
+        </div>
+
+    </div>
+
+    <audio data-loop="84" src="assets/sounds/beats/04-Bass-Loop-114-bpm.wav"></audio>
+    <audio data-loop="89" src="assets/sounds/beats/Retro-disco-beat-cc-115-bpm.wav"></audio>
+    <audio data-loop="85" src="assets/sounds/beats/Retro-drum-machine-beat-loop.wav"></audio>
+
+    <audio data-key="65" src="assets/sounds/effects/8_jump.wav"></audio>
+    <audio data-key="83" src="assets/sounds/effects/8_coins.wav"></audio>
+    <audio data-key="68" src="assets/sounds/effects/8_gamestart.wav"></audio>
+    <audio data-key="70" src="assets/sounds/effects/8_swoosh.wav"></audio>
+   
+    <audio data-key="72" src="assets/sounds/effects/8_explosionsfx.wav"></audio>
+    <audio data-key="74" src="assets/sounds/effects/clap.wav"></audio>
+    <audio data-key="75" src="assets/sounds/effects/hihat.wav"></audio>
+    <audio data-key="76" src="assets/sounds/effects/snare.wav"></audio>
+
+    <script src="script.js">
+
+
+    </script>
+</body>
+</html>

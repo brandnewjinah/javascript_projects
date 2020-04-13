@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+html {
+    background: url(assets/imgs/matthew-kalapuch-sqJ4tLBiurw-unsplash.jpg) bottom center;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.bkey,
+.ekey {
+    background: rgba(0,0,0,0.4);
+    border: .1em solid rgba(255,255,255,0.5);
+    border-radius: 1.25em;
+    color: white;
+    padding: 1em 1.45em;
+    text-align: center;
+    margin: auto 0.25em;
+    transition: all .07s ease;
+}
+
+.space {
+    background: rgba(0,0,0,0.4);
+    border: .1em solid rgba(255,255,255,0.5);
+    border-radius: 1.25em;
+    color: white;
+    padding: 1.25em 12em;
+    text-align: center;
+    margin: auto 0.25em;
+}
+
+.space kbd {
+    font-size: 1.25rem;
+}
+
+kbd {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 2rem;
+}
+
+.sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ff9d77;
+}
+
+.beats_playing {
+    transform: scale(1.1);
+    border-color: #1cffca;
+    box-shadow: 0 0 1rem #1cffca;
+}
+
+.effects_playing {
+    transform: scale(1.1);
+    border-color: #ff9d77;
+    box-shadow: 0 0 1rem #ff9d77;
+}
