@@ -19,6 +19,45 @@ body{
     align-items: center;
 }
 
+.step1,
+.step2,
+.step3 {
+    text-transform: uppercase;
+    color: #ecfffb;
+    font-size: 1.5rem;
+    letter-spacing: .125rem;
+}
+
+.step1 {
+    text-shadow:    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem #1cffca,
+                    0 0 4rem #1cffca,
+                    0 0 6rem #1cffca,
+                    0 0 8rem #1cffca,
+                    0 0 10rem #1cffca;
+}
+
+.step2 {
+    text-shadow:    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem #ff4800,
+                    0 0 1rem #ff4800,
+                    0 0 6rem #ff4800,
+                    0 0 1rem #ff4800,
+                    0 0 20rem #ff4800;
+}
+
+.step3 {
+    text-shadow:    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem #ffcd05,
+                    0 0 1rem #ffcd05,
+                    0 0 6rem #ffcd05,
+                    0 0 1rem #ffcd05,
+                    0 0 20rem #ffcd05;
+}
+
 .keys {
     display: flex;
     justify-content: center;
@@ -58,10 +97,23 @@ kbd {
     font-size: 2rem;
 }
 
-.sound {
+.beat,
+.sound,
+.stop {
     font-size: 1rem;
     text-transform: uppercase;
+}
+
+.beat {
+    color: #b9ffef;
+}
+
+.sound {
     color: #ff9d77;
+}
+
+.stop {
+    color: #f9e184;
 }
 
 .beats_playing {
